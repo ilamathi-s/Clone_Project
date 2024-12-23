@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.logo{
+  width: 60px;
+  height: 60px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  .logofont{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 40px;
+    margin-left: -70px;
+  }
+  .Login{
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border-radius: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .Enroll{
+    color: white;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .Explore{
+    color: white;
+    background-color: black;
+    width: 240px;
+    height: 40px;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .headspace{
+   font-size: 15px;
+  }
+  .marquee{
+    background-color: black;
+    color: white;
+    height: 35px;
+  }
+  .font_size{
+    font-size: 15px;
+  }
+  .color{
+    color: rgb(233, 76, 8);
+  }
+  .home-font{
+    font-size: 55px;
+    font-family:serif;
+    font-weight: 800;
+  }
+  .para-font{
+    color: grey;
+    font-size: 18px;
+  }
+  .icon{
+    color: rgb(233, 76, 8);
+  }
+  .card-button{
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 2rem;
+    border-width: 1.2px;
+    width: 140px;
+    height: 40px;
+  }
+  .card-button:hover{
+    color: black;
+    background-color: white;
+  }
+ .card-style{
+  margin-top: -170px;
+  width: 400px;
+  height: 700px;
+ }
+ .card-styles{
+  margin-top: -170px;
+  width: 400px;
+  height: 500px;
+ }
+ .bg{
+  background-color: black;
+ }
+ .font-white{
   color: white;
-}
+  font-family: serif;
+ }
+ .border-style{
+  border-radius: 20px;
+ }
+ .horizontal-line{
+  width: 250px;
+  height: 2px;
+  background-color: rgb(233, 76, 8);
+  margin: 15px 0;
+ }
+ .horizontal{
+  width: 250px;
+  height: 2px;
+  background-color: rgb(145, 2, 92);
+  margin: 15px 0;
+ }
+ .horizon{
+  width: 250px;
+  height: 2px;
+  background-color: rgb(18, 116, 41);
+  margin: 15px 0;
+ }
+ .font-style h5{
+font-size: 15px;
+ }
+ .font-size p{
+  font-size: 5px;
+ }
+ .icon_ab{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: fill;
+ }
+ .image-fill{
+  object-fit: cover;
+ }
+ .image-size{
+  width: 22rem;
+  height: 35rem;
+  border-radius: 10px;
+ }
+ .image-size1{
+  width: 25rem;
+  height: 16rem;
+  border-radius: 10px;
+  margin-top: 20px;
+ }
+ .spacing{
+  margin-top: -170px;
 
-.App-link {
-  color: #61dafb;
-}
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

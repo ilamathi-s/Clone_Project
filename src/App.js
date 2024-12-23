@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Nav from './nav'
+import Homepage from './homepage'
+import Certify from './certifipage'
+import SpanPage from './spanpage'
+import Abroadpage from './Abroadpage';
+import UniversityPage from './UniversityPage';
+import Refer from './refer'
+import Footer from './footer'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Nav/>
+    <Homepage/>
+    <Certify/>
+    <SpanPage/>
+    <Abroadpage/>
+    <UniversityPage/>
+    <Refer/>
+    <Footer/>
     </div>
   );
 }
