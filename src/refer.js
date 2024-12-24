@@ -4,7 +4,7 @@ import Refer_1 from './images/refer-1.png'
 import Refer_2 from './images/refer-2.png'
 function Refer() {
   return (
-    <div>
+    <div id='Refer'>
         <div className='justify-items-center py-32'>
             <div className='flex justify-center gap-3'>
                 <p className='horizon'></p>
@@ -13,8 +13,9 @@ function Refer() {
                 <h1 className="card-subtitle py-4"><span className='italic font-serif'>Refer & Earn</span></h1>
                 <p className="card-text"><span className='font-medium para-font'>Refer your friends to LetsUpgrade programs and earn T-shirts, stickers, notebooks, bags, tech gadgets, and more</span></p>
             </div>
-            <div className='justify-items-center  '>
-            <div className="card mb-3 w-[60rem] h-[55rem] bg-green-300" >
+            <div className='justify-items-center'>
+            <div className="card mb-3 w-[60rem] h-[55rem] " >
+                <div className='bg-green-100 border-green-400 border-style'>
                  <div className="row g-0 ">
                     <div className="col-md-8">
                         <div className="card-body ml-9">
@@ -42,7 +43,7 @@ function Refer() {
                         </div>
                     </div>
             </div> 
-            </div>
+            </div></div>
             </div>
     </div>
   )

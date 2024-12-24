@@ -51,9 +51,8 @@
     color: rgb(233, 76, 8);
   }
   .home-font{
-    font-size: 55px;
+    font-size: 70px;
     font-family:serif;
-    font-weight: 800;
   }
   .para-font{
     color: grey;
@@ -143,4 +142,19 @@ font-size: 15px;
   margin-top: -170px;
 
  }
-
+ .Continue{
+  color: black;
+  background-color: rgb(113, 113, 113);
+  width: 120px;
+  height: 40px;
+  border-radius: 2rem;
+ }
+ .Continue:hover{
+  color: white;
+  background-color: black;
+ }
+.Bg{
+  background-size: auto;
+  width: 600px;
+  height: 780px;
+}

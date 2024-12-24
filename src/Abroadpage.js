@@ -36,13 +36,13 @@ function Abroadpage() {
                 <AbroadCard image={Ab_5} icon={Abroad_5} place="AUSTRALIA" />
             </div>
             <div className='flex flex-wrap  mt-8'>
-                <img src={Ab_6} className='image-size' alt="image"/>
+                <img src={Ab_6} className='image-size' alt="abroadimage"/>
                 <div className='flex flex-col px-4'>
-                <img src={Ab_7} className='image-size1' alt="image"/>
-                <img src={Ab_8} className='image-size1' alt="image"/></div>
+                <img src={Ab_7} className='image-size1' alt="abroadimage"/>
+                <img src={Ab_8} className='image-size1' alt="abroadimage"/></div>
                 <div className='flex flex-col px-4'>
-                <img src={Ab_9} className='image-size1' alt="image"/>
-                <img src={Ab_10} className='image-size1' alt="image"/></div>
+                <img src={Ab_9} className='image-size1' alt="abroadimage"/>
+                <img src={Ab_10} className='image-size1' alt="abroadimage"/></div>
                 
             </div>
     </div>

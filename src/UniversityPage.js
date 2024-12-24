@@ -13,7 +13,7 @@ function UniversityPage() {
                 <h1 className="card-subtitle py-4"><span className='text-sky-900 italic font-bold font-serif'>Esteemed Partnered University</span></h1>
                 <p className="card-text"><span className='font-medium para-font'>Partner Universities for MS Study Abroad Programs</span></p>
         </div>
-        <div className='flex justify-items-center border-style  w-[15rem] h-[8rem]'>
+        <div className='flex border-style place-content-center w-[15rem] h-[8rem]'>
                 <img src={Uni_1} alt='image1'/>
                 <img src={Uni_2} alt='image2' className='ml-5'/>
         </div>

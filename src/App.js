@@ -7,18 +7,27 @@ import Abroadpage from './Abroadpage';
 import UniversityPage from './UniversityPage';
 import Refer from './refer'
 import Footer from './footer'
+import Login from './login'
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 function App() {
   return (
-    <div>
-    <Nav/>
-    <Homepage/>
-    <Certify/>
-    <SpanPage/>
-    <Abroadpage/>
-    <UniversityPage/>
-    <Refer/>
-    <Footer/>
-    </div>
+    <Router>
+        <Routes>
+          <Route path='*' element={
+            <>
+              <Nav/>
+              <Homepage/>
+              <Certify/>
+              <SpanPage/>
+              <Abroadpage/>
+              <UniversityPage/>
+              <Refer/>
+              <Footer/>
+            </> }/>
+          <Route path="/login" element={<Login />} />
+        </Routes>
+     </Router>
+
   );
 }
 

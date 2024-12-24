@@ -7,7 +7,7 @@ function Certificard(props) {
             <div className="card-body">
                 <p className="card-text font-style font-light">{props.detail}</p>
                 <h5 className="card-title font-style">{props.title}</h5>
-                <button href="#" className="Enroll justify-center items-end">Enroll Now</button>
+                <button href="#" className="Enroll justify-center place-self-end">Enroll Now</button>
             </div>
     </div>
   )
